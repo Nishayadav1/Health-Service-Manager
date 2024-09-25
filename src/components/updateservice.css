@@ -1,0 +1,36 @@
+.updateservice{
+    border:2px solid rgb(226, 223, 223);
+    width: 20vw;
+    margin-left: 5rem;
+}
+.updateheader{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-bottom: 1rem;
+}
+
+
+
+input{
+    margin-block:5px;
+    width:20rem;
+    padding:0.5rem;
+    border-radius:0.5rem;
+    color: gray;
+    border-color: aliceblue;
+}
+.updatebtn{
+    cursor: pointer;
+    height: 2rem;
+    border: none;
+    margin:7px;
+    width: 8rem;
+    border-radius: 1rem;
+    background-color: rgb(128, 212, 245);
+    color: rgb(2, 2, 68);
+    font-weight:bold;
+}
+.updatebtnn:hover{
+   background-color:rgb(6, 108, 177);
+   color: white;
+   font-weight: bold;
+}

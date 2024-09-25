@@ -1,0 +1,28 @@
+.main-header {
+    height: 3rem;
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #1477d2;
+    text-shadow: 1px 1px 2px black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5), -3px -3px 8px rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        height: 2.4rem;
+        width: 132vw; /* Use 100vw instead of 130vw to fit better */
+        font-size: 1.5rem;
+        padding: 1.5rem; /* Adjust padding for smaller devices */
+    }
+}
+
+@media (max-width: 425px) {
+    .main-header {
+        height: 2rem;
+        width: 137vw; /* Maintain 100vw for a better fit */
+        font-size: 1rem;
+        padding: 1rem; /* Adjust padding for very small devices */
+    }
+}

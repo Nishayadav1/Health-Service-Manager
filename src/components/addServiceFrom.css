@@ -1,0 +1,61 @@
+.addservice {
+    position: relative;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    gap: 2.5rem;
+    align-items: center;
+    padding: 3rem;
+    height: 62vh;
+}
+
+.addservice::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../assets/addserviceback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.3; /* Adjust this value to control opacity */
+    z-index: -1; /* Keep it behind the content */
+}
+
+  
+
+.addservice h2{
+    font-size: 2.7rem;
+    border-radius: 0.3rem;   
+    font-weight:bolder;
+    background-color: white;
+    text-shadow: 4px 5px 4px white, 0 0 1em rgb(90, 221, 253), 0 0 0.2em rgb(101, 169, 214);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+
+.addservice input{
+    border-radius: 0.3rem;
+    height: 1.5rem;
+    width: 30vh;
+    padding: 1rem;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.addservice button{
+    height: 2.8rem;
+    border: none;
+    width: 10rem;
+    font-size: 1rem;
+    background-color:#399ce9;
+    border-radius: 0.5rem;
+}
+.addservice button:hover{
+    background-color:#02355c;
+    color :white;
+}
+ 
