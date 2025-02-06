@@ -22,10 +22,6 @@ This is a simple React web application that allows users to manage a list of hea
 - **Form Validation**: All form fields (name, description, and price) must be filled in before a service can be added.
 - **Styling**: Basic CSS is used for styling, and Bootstrap can optionally be used for enhancing the UI design.
 
-## Live Demo
-You can view the live demo of the project here: [ health-service-manager.vercel.app ]
-
-
 ## Main Components
 
 - **ServiceList**: Displays all healthcare services, and includes "Edit" and "Delete" buttons for each service.
